@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="CrmWorkSpace:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>CrmWorkSpace</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="CrmWorkSpace-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="CrmWorkSpace:war exploded" />
+    </root>
+  </artifact>
+</component>

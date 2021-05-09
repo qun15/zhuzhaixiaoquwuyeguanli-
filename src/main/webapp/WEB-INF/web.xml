@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>crm</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+  </welcome-file-list>
+  <filter>
+    <filter-name>EncodingFilter</filter-name>
+    <filter-class>com.nb.crm.filter.EncodingFilter</filter-class>
+  </filter>
+  <filter-mapping>
+    <filter-name>EncodingFilter</filter-name>
+    <url-pattern>*.do</url-pattern>
+  </filter-mapping>
+  <filter>
+    <filter-name>LoginFilter</filter-name>
+    <filter-class>com.nb.crm.filter.LoginFilter</filter-class>
+  </filter>
+  <filter-mapping>
+    <filter-name>LoginFilter</filter-name>
+    <url-pattern>*.do</url-pattern>
+    <url-pattern>*.jsp</url-pattern>
+  </filter-mapping>
+
+  <servlet>
+    <servlet-name>UserController</servlet-name>
+    <servlet-class>com.nb.crm.settings.web.controller.UserController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UserController</servlet-name>
+    <url-pattern>/settings/user/login.do</url-pattern>
+    <url-pattern>/settings/user/miMa.do</url-pattern>
+    <url-pattern>/settings/user/getUserList.do</url-pattern>
+    <url-pattern>/settings/user/CreateUserList.do</url-pattern>
+    <url-pattern>/settings/user/pageList.do</url-pattern>
+    <url-pattern>/settings/user/deleteUser.do</url-pattern>
+    <url-pattern>/settings/user/getUserListById.do</url-pattern>
+    <url-pattern>/settings/user/editUserListById.do</url-pattern>
+    <url-pattern>/workbench/customer/detail.do</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>ParkControllers</servlet-name>
+    <servlet-class>com.nb.crm.settings.web.controller.ParkController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ParkControllers</servlet-name>
+    <url-pattern>/setting/park/pageList.do</url-pattern>
+    <url-pattern>/settings/park/getParkListById.do</url-pattern>
+    <url-pattern>/settings/park/editParkListById.do</url-pattern>
+    <url-pattern>/settings/park/deletePark.do</url-pattern>
+    <url-pattern>/settings/park/CreateParkList.do</url-pattern>
+    <url-pattern>/settings/park/getParkList.do</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>checkController</servlet-name>
+    <servlet-class>com.nb.crm.settings.web.controller.CheckController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>checkController</servlet-name>
+    <url-pattern>/settings/check/CreateCheckList.do</url-pattern>
+    <url-pattern>/setting/check/pageList.do</url-pattern>
+    <url-pattern>/settings/check/getCheckListById.do</url-pattern>
+    <url-pattern>/settings/check/editCheckListById.do</url-pattern>
+    <url-pattern>/settings/check/deleteCheck.do</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>payController</servlet-name>
+    <servlet-class>com.nb.crm.settings.web.controller.PayController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>payController</servlet-name>
+    <url-pattern>/setting/pay/pageList.do</url-pattern>
+    <url-pattern>/settings/pay/CreatePayList.do</url-pattern>
+    <url-pattern>/settings/pay/getPayListById.do</url-pattern>
+    <url-pattern>/settings/pay/editPayListById.do</url-pattern>
+    <url-pattern>/settings/pay/deletePay.do</url-pattern>
+  </servlet-mapping>
+<servlet>
+  <servlet-name>ActivityController</servlet-name>
+  <servlet-class>com.nb.crm.workbench.web.controller.ActivityController</servlet-class>
+</servlet>
+<servlet-mapping>
+  <servlet-name>ActivityController</servlet-name>
+  <url-pattern>/workbench/activity/getUserList.do</url-pattern>
+  <url-pattern>/workbench/activity/save.do</url-pattern>
+  <url-pattern>/workbench/activity/pageList.do</url-pattern>
+  <url-pattern>/workbench/activity/delete.do</url-pattern>
+  <url-pattern>/workbench/activity/updateActivity.do</url-pattern>
+  <url-pattern>/workbench/activity/update.do</url-pattern>
+  <url-pattern>/workbench/activity/detail.do</url-pattern>
+  <url-pattern>/workbench/activity/getRemakeListByAid.do</url-pattern>
+  <url-pattern>/workbench/activity/deleteRemark.do</url-pattern>
+  <url-pattern>/workbench/activity/saveRemark.do</url-pattern>
+  <url-pattern>/workbench/activity/updateRemark.do</url-pattern>
+</servlet-mapping>
+</web-app>
+

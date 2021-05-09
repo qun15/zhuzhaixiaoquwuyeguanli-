@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+ "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.nb.crm.settings.dao.IParkDao">
+
+    <select id="getTotalByCondition" resultType="int">
+        select count(*)
+        from tbl_park
+
+    </select>
+    <select id="getUserListByCondition" resultType="com.nb.crm.settings.domain.Park">
+        select
+       p.id,
+       u.name as userId,
+       p.cheWei,
+       p.chePai
+        from tbl_user u
+            join tbl_park p
+                on u.id=p.userid
+        limit #{skipCount},#{pageSize}
+    </select>
+    <select id="getParkListById" resultType="com.nb.crm.settings.domain.Park">
+        select  p.id,
+                u.name as userId,
+                p.cheWei,
+                p.chePai
+        from tbl_user u
+                 join tbl_park p
+                      on u.id=p.userid
+              where p.id=#{id}
+    </select>
+    <update id="update">
+        update tbl_park set chePai=#{chePai},cheWei=#{cheWei} where id=#{id}
+    </update>
+    <delete id="deletePark">
+        delete from tbl_park where id in
+        <foreach  collection="array" separator="," item="ids" close=")" open="(" >
+            #{ids}
+        </foreach>
+     </delete>
+    <insert id="save">
+        insert into  tbl_park values(#{id},#{chePai},#{userId},#{cheWei})
+    </insert>
+    <select id="getUserList" resultType="com.nb.crm.settings.domain.User">
+        select * from tbl_user where sfz !=1
+    </select>
+</mapper>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

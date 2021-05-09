@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+ "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.nb.crm.settings.dao.IUserDao">
+	
+	<select id="login" resultType="com.nb.crm.settings.domain.User">
+        select * from tbl_user where loginAct=#{loginAct} and loginPwd=#{loginPwd}
+    </select>
+	<select id="getUserList" resultType="com.nb.crm.settings.domain.User">
+        select * from tbl_user where sfz !=1
+    </select>
+    <insert id="save">
+        insert into tbl_user (id,name,phone,sfz,address,content,expiretime,park) values
+        (#{id},#{name},#{phone},#{sfz},#{address},#{content},#{expireTime},#{park})
+    </insert>
+    <select id="getUserListByCondition" resultType="com.nb.crm.settings.domain.User">
+        select
+        id,
+        name,
+        address,
+        phone,
+        expireTime
+         from tbl_user
+       <where>
+           <if test="name!=null and name!=''">
+               name  like '%' #{name} '%'
+           </if>
+           <if test="address!=null and address!=''">
+               and address like '%' #{address} '%'
+           </if>
+           <if test="phone!=null and phone!=''">
+               and phone like '%' #{phone} '%'
+           </if>
+           <if test="expireTime!=null and expireTime!=''">
+               and expireTime like '%' #{expireTime} '%'
+           </if>
+       </where>
+        limit #{skipCount},#{pageSize}
+    </select>
+    <select id="getTotalByCondition" resultType="int">
+        select count(*)
+        from tbl_user
+        <where>
+        <if test="name!=null and name!=''">
+            name  like '%' #{name} '%'
+        </if>
+        <if test="address!=null and address!=''">
+            and address like '%' #{address} '%'
+        </if>
+        <if test="phone!=null and phone!=''">
+            and phone like '%' #{phone} '%'
+        </if>
+        <if test="expireTime!=null and expireTime!=''">
+            and expireTime like '%' #{expireTime} '%'
+        </if>
+        </where>
+    </select>
+    <delete id="deleteUser">
+        delete from tbl_user where id  in
+            <foreach collection="array" open="(" close=")" item="ids" separator=",">
+                #{ids}
+            </foreach>
+    </delete>
+    <select id="getUserById" resultType="com.nb.crm.settings.domain.User">
+        select id,name,phone,sfz,expireTime,content,park,address
+         from tbl_user
+         where id=#{id}
+    </select>
+    <update id="update">
+        update tbl_user set name=#{name},phone=#{phone},sfz=#{sfz}
+                          ,expireTime=#{expireTime},content=#{content},park=#{park},address=#{address}
+       where id=#{id}
+    </update>
+    <select id="getXiangXi" resultType="com.nb.crm.settings.domain.User">
+        select * from tbl_user where sfz !=1 and id=#{id}
+    </select>
+    <update id="updatePwd">
+        update tbl_user set loginPwd=#{newPwd} where id=#{id}
+    </update>
+</mapper>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
