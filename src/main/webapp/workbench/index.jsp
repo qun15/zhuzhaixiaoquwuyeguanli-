@@ -196,12 +196,12 @@ request.getContextPath()+"/";
 <%--				<li class="liClass"><a href="javascript:void(0);" target="workareaFrame"><span class="glyphicon glyphicon-time"></span> 审批</a></li>--%>
 <%--				<li class="liClass"><a href="javascript:void(0);" target="workareaFrame"><span class="glyphicon glyphicon-user"></span> 客户公海</a></li>--%>
 <%--				<li class="liClass"><a href="workbench/activity/index.jsp" target="workareaFrame"><span class="glyphicon glyphicon-play-circle"></span> 市场活动</a></li>--%>
-				<li class="liClass"><a href="workbench/activity/index.jsp" target="workareaFrame"><span class="glyphicon glyphicon-earphone"></span> 住户投诉</a></li>
-				<li class="liClass"><a href="workbench/contacts/index.jsp" target="workareaFrame"><span class="glyphicon glyphicon-search"></span>住户缴费</a></li>
+				<li class="liClass"><a href="workbench/report/index.jsp" target="workareaFrame"><span class="glyphicon glyphicon-earphone"></span> 住户投诉</a></li>
+				<li class="liClass"><a href="workbench/pay/index.jsp" target="workareaFrame"><span class="glyphicon glyphicon-search"></span>住户缴费</a></li>
 <%--				<li class="liClass"><a href="customer/index.jsp" target="workareaFrame"><span class="glyphicon glyphicon-user"></span> 客户</a></li>--%>
 <%--				<li class="liClass"><a href="contacts/index.jsp" target="workareaFrame"><span class="glyphicon glyphicon-earphone"></span> 联系人</a></li>--%>
 				<li class="liClass"><a href="workbench/check/index.jsp" target="workareaFrame"><span class="glyphicon glyphicon-phone-alt"></span> 住户报修</a></li>
-				<li class="liClass"><a href="workbench/transaction/index.jsp" target="workareaFrame"><span class="glyphicon glyphicon-wrench"></span> 停车管理</a></li>
+				<li class="liClass"><a href="workbench/park/index.jsp" target="workareaFrame"><span class="glyphicon glyphicon-wrench"></span> 停车管理</a></li>
 <%--				<li class="liClass">--%>
 <%--					<a href="#no2" class="collapsed" data-toggle="collapse"><span class="glyphicon glyphicon-stats"></span> 统计图表</a>--%>
 <%--					<ul id="no2" class="nav nav-pills nav-stacked collapse">--%>

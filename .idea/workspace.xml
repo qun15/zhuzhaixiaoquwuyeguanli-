@@ -10,7 +10,52 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7e1e87fd-50af-48ee-9502-c5ddd221e488" name="Default Changelist" comment="第一次上传">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/workbench/activity/detail.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/workbench/report/detail.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/workbench/activity/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/workbench/report/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/workbench/contacts/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/workbench/pay/detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/workbench/contacts/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/workbench/pay/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/workbench/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/workbench/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/workbench/transaction/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/workbench/park/detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/workbench/transaction/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/workbench/park/edit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/workbench/transaction/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/workbench/park/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/workbench/transaction/save.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/workbench/park/save.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/CrmWorkSpace-1.0-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/target/CrmWorkSpace-1.0-SNAPSHOT/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/CrmWorkSpace-1.0-SNAPSHOT/WEB-INF/classes/com/nb/crm/filter/LoginFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/CrmWorkSpace-1.0-SNAPSHOT/WEB-INF/classes/com/nb/crm/filter/LoginFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/CrmWorkSpace-1.0-SNAPSHOT/WEB-INF/classes/com/nb/crm/settings/service/impl/IPayServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/CrmWorkSpace-1.0-SNAPSHOT/WEB-INF/classes/com/nb/crm/settings/service/impl/IPayServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/CrmWorkSpace-1.0-SNAPSHOT/WEB-INF/classes/com/nb/crm/settings/service/impl/IUserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/CrmWorkSpace-1.0-SNAPSHOT/WEB-INF/classes/com/nb/crm/settings/service/impl/IUserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/CrmWorkSpace-1.0-SNAPSHOT/WEB-INF/classes/com/nb/crm/settings/web/controller/CheckController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/CrmWorkSpace-1.0-SNAPSHOT/WEB-INF/classes/com/nb/crm/settings/web/controller/CheckController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/CrmWorkSpace-1.0-SNAPSHOT/WEB-INF/classes/com/nb/crm/settings/web/controller/ParkController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/CrmWorkSpace-1.0-SNAPSHOT/WEB-INF/classes/com/nb/crm/settings/web/controller/ParkController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/CrmWorkSpace-1.0-SNAPSHOT/WEB-INF/classes/com/nb/crm/settings/web/controller/PayController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/CrmWorkSpace-1.0-SNAPSHOT/WEB-INF/classes/com/nb/crm/settings/web/controller/PayController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/CrmWorkSpace-1.0-SNAPSHOT/WEB-INF/classes/com/nb/crm/settings/web/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/CrmWorkSpace-1.0-SNAPSHOT/WEB-INF/classes/com/nb/crm/settings/web/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/CrmWorkSpace-1.0-SNAPSHOT/WEB-INF/classes/com/nb/crm/utils/MD5Util.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/CrmWorkSpace-1.0-SNAPSHOT/WEB-INF/classes/com/nb/crm/utils/MD5Util.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/CrmWorkSpace-1.0-SNAPSHOT/WEB-INF/classes/com/nb/crm/utils/PrintJson.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/CrmWorkSpace-1.0-SNAPSHOT/WEB-INF/classes/com/nb/crm/utils/PrintJson.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/CrmWorkSpace-1.0-SNAPSHOT/WEB-INF/classes/com/nb/crm/utils/SqlSessionUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/CrmWorkSpace-1.0-SNAPSHOT/WEB-INF/classes/com/nb/crm/utils/SqlSessionUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/CrmWorkSpace-1.0-SNAPSHOT/WEB-INF/classes/com/nb/crm/utils/TransactionInvocationHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/CrmWorkSpace-1.0-SNAPSHOT/WEB-INF/classes/com/nb/crm/utils/TransactionInvocationHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/CrmWorkSpace-1.0-SNAPSHOT/WEB-INF/classes/com/nb/crm/workbench/web/controller/ActivityController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/CrmWorkSpace-1.0-SNAPSHOT/WEB-INF/classes/com/nb/crm/workbench/web/controller/ActivityController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/CrmWorkSpace-1.0-SNAPSHOT/workbench/activity/detail.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/CrmWorkSpace-1.0-SNAPSHOT/workbench/activity/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/CrmWorkSpace-1.0-SNAPSHOT/workbench/contacts/detail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/CrmWorkSpace-1.0-SNAPSHOT/workbench/contacts/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/CrmWorkSpace-1.0-SNAPSHOT/workbench/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/CrmWorkSpace-1.0-SNAPSHOT/workbench/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/CrmWorkSpace-1.0-SNAPSHOT/workbench/transaction/detail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/CrmWorkSpace-1.0-SNAPSHOT/workbench/transaction/edit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/CrmWorkSpace-1.0-SNAPSHOT/workbench/transaction/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/CrmWorkSpace-1.0-SNAPSHOT/workbench/transaction/save.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nb/crm/filter/LoginFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nb/crm/filter/LoginFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nb/crm/settings/service/impl/IPayServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nb/crm/settings/service/impl/IPayServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nb/crm/settings/service/impl/IUserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nb/crm/settings/service/impl/IUserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nb/crm/settings/web/controller/CheckController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nb/crm/settings/web/controller/CheckController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nb/crm/settings/web/controller/ParkController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nb/crm/settings/web/controller/ParkController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nb/crm/settings/web/controller/PayController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nb/crm/settings/web/controller/PayController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nb/crm/settings/web/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nb/crm/settings/web/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nb/crm/utils/MD5Util.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nb/crm/utils/MD5Util.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nb/crm/utils/PrintJson.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nb/crm/utils/PrintJson.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nb/crm/utils/SqlSessionUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nb/crm/utils/SqlSessionUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nb/crm/utils/TransactionInvocationHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nb/crm/utils/TransactionInvocationHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nb/crm/workbench/web/controller/ActivityController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nb/crm/workbench/web/controller/ActivityController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +97,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1rhN5MG5LDB2o6yUkmxiJv3OPa8" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="false" id="Update" />
+  </component>
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
@@ -97,7 +144,7 @@
       <recent name="com.nb.crm.settings.domain" />
     </key>
   </component>
-  <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.16">
+  <component name="RunManager" selected="Tomcat Server.Tomcat 8.5.24">
     <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.nb.crm.exception.Test" />
       <module name="main" />
@@ -125,31 +172,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Tomcat 9.0.16" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.16" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+    <configuration name="Tomcat 8.5.24" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.24" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8088/WorkSpace/" />
       <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
       <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
       <deployment>
         <artifact name="CrmWorkSpace:war exploded">
           <settings>
-            <option name="CONTEXT_PATH" value="/Crm" />
+            <option name="CONTEXT_PATH" value="/WorkSpace" />
           </settings>
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="d67fc1be-0041-404b-b47e-44b3ac035e75" />
-        <option name="HTTP_PORT" value="8081" />
-        <option name="JNDI_PORT" value="1091" />
+        <option name="BASE_DIRECTORY_NAME" value="86efe5b5-cb1d-45da-8959-93eb37d2611e" />
+        <option name="HTTP_PORT" value="8088" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -308,7 +344,7 @@
       <item itemvalue="Application.Test" />
       <item itemvalue="Application.Test (1)" />
       <item itemvalue="Application.Test1" />
-      <item itemvalue="Tomcat Server.Tomcat 9.0.16" />
+      <item itemvalue="Tomcat Server.Tomcat 8.5.24" />
     </list>
     <recent_temporary>
       <list>
@@ -346,6 +382,11 @@
       <workItem from="1620463338227" duration="3846000" />
       <workItem from="1620477623881" duration="133000" />
       <workItem from="1620530632969" duration="769000" />
+      <workItem from="1620534569285" duration="1308000" />
+      <workItem from="1622111510004" duration="1132000" />
+      <workItem from="1622115529591" duration="2189000" />
+      <workItem from="1622182981153" duration="641000" />
+      <workItem from="1622183640130" duration="300000" />
     </task>
     <task id="LOCAL-00001" summary="第一次上传">
       <created>1620531085672</created>
